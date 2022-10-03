@@ -1,0 +1,72 @@
+.slick-dots {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 65px;
+  right: 15px;
+}
+.slick-dots li {
+  margin: 0 4px;
+}
+.slick-dots li button {
+  font-size: 0;
+  background: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 99px;
+  border: 1px solid white;
+}
+.slick-dots .slick-active button {
+  background-color: white;
+}
+.work-pev {
+  background-color: gray;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+.work-next {
+  background-color: gray;
+  color: white;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+  left: 23px;
+  bottom: 22px;
+}
+.client-pev {
+  background-color: #dbdada;
+  color: gray;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+.client-next {
+  color: gray;
+  background-color: #dbdada;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+  left: 23px;
+  bottom: 22px;
+}
+.portfolio-scroll-btn:active .work-next {
+  background-color: white;
+  color: black;
+}
+.portfolio-scroll-btn {
+  position: absolute;
+  left: 90%;
+  align-items: center;
+}
